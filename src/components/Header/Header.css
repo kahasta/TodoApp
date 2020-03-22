@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  justify-content: left;
+  font-size: 24px;
+  box-shadow: 4px 4px 10px #432;
+  padding: 3px;
+  background-color: #222444;
+  color: #eee;
+  /* margin-left: 20px;
+    margin-right: 20px; */
+  /* margin-top: 10px; */
+}
+
+.header h1 {
+  margin-left: 20px;
+  box-shadow: 4px 4px 25px rgb(248, 173, 98);
+  padding: 2px;
+  border-radius: 6px;
+  transition: box-shadow, border-radius 0.4s;
+}
+
+.header h1:hover {
+  border-radius: 32px;
+  box-shadow: 8px 8px 25px rgb(241, 237, 217);
+}
+
+.header h3 {
+  display: flex;
+  box-shadow: 4px 4px 25px rgb(196, 191, 186);
+  padding: 36px;
+  margin-left: 40px;
+  border-radius: 18px;
+  font-size: 14px;
+  transition: box-shadow, border-radius 0.4s;
+}
+
+.header h3:hover {
+  box-shadow: 8px 8px 15px rgb(255, 255, 255);
+  border-radius: 32px;
+}

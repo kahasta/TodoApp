@@ -1,0 +1,53 @@
+.todo {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  width: 30%;
+  font-family: sans-serif;
+  padding: 12px;
+  margin: 8px;
+  border: 1px solid #fff;
+  box-shadow: 2px 1px 2px #500;
+  transition: border, box-shadow 0.4s;
+  border-radius: 12px;
+}
+
+.todo:hover {
+  border: 3px solid #dcf;
+  box-shadow: 2px 3px 3px #104;
+}
+
+.todoBtn {
+  display: flex;
+  justify-content: left;
+  background-color: #aac;
+}
+
+input {
+  cursor: pointer;
+}
+.line {
+  text-decoration: line-through;
+  background-color: red;
+  box-shadow: 2px 3px 3px #009;
+}
+.todo p {
+  display: block;
+  overflow: hidden;
+  font-size: 22px;
+  padding: 8px;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+
+.trash {
+  font-size: 32px;
+  font-weight: bold;
+  rotate: 45deg;
+  color: red;
+  /* border: 1px solid bl; */
+  /* background-color: #ccc; */
+  cursor: pointer;
+  border-radius: 48px;
+}
